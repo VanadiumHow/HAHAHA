@@ -15,6 +15,7 @@ namespace ConsoleApp1
         //{
         //    bb = 1;
         //}
+        static int i;
         static void Main(string[] args)
         {
             #region 条件运算符
@@ -77,8 +78,9 @@ namespace ConsoleApp1
             //str2.Replace('K', 'k');
 
             #endregion
-            
-            #region 
+
+            #region 面向对象程序设计
+            Console.WriteLine(i);//字段属于类级别的变量时，未初始化时将会有默认值0
 
             #endregion
         }
